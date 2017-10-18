@@ -1,11 +1,19 @@
 {
-  "name": "file-encryptor",
+  "name": "file-cryptor",
   "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "file",
+    "encrypt",
+    "encryptor",
+    "decrypt",
+    "decryptor",
+    "cli"
+  ],
   "author": "Max Villegas",
   "license": "ISC"
 }
