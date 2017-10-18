@@ -22,6 +22,8 @@ class Index {
       case 'encrypt':
         let Operator =  require('./' + operation);
         return new Operator()[operation + 'File'](file, secretPassword);
+      default:
+        console.log('Operation not supported!');
     }
   }
 
