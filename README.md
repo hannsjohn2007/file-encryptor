@@ -3,7 +3,7 @@ To run the code.
 
 Encrypt
 
-    $node index.js encrypt <filename> <secret pass>
+    $node app.js encrypt <filename> <secret pass>
 Decrypt
 
-    $node index.js decrypt <encrypted filename> <secret pass>
+    $node app.js decrypt <encrypted filename> <secret pass>
